@@ -31,12 +31,20 @@ BUILD_CONFIGS: Dict[str, List[Dict[str, Any]]] = {
 	"BUILD_KSU": [
 		config(name="KSU", KSU="KSU")
 	],
+	"BUILD_KSUN": [
+		config(name="KSUN", KSU="KSUN"),
+		config(name="Compat+KSUN", KSU="KSUN", KSU_COMPAT="true"),
+		config(name="Compat+NoDS+KSUN", KSU="KSUN", KSU_COMPAT="true", No_DS="true")
+	],
 	"BUILD_KSU_SUSFS": [
 		config(name="KSU+SUSFS", KSU="KSU", KSU_SUSFS="true"),
 		config(name="Compat+KSU+SUSFS", KSU="KSU", KSU_COMPAT="true", KSU_SUSFS="true"),
 		config(name="BSU+SUSFS", KSU="BSU", KSU_SUSFS="true"),
 		config(name="Compat+BSU+SUSFS", KSU="BSU", KSU_COMPAT="true", KSU_SUSFS="true"),
 		config(name="Compat+NoDS+KSU+SUSFS", KSU="KSU", KSU_COMPAT="true", KSU_SUSFS="true", No_DS="true"),
+		config(name="KSUN+SUSFS", KSU="KSUN", KSU_SUSFS="true"),
+		config(name="Compat+KSUN+SUSFS", KSU="KSUN", KSU_COMPAT="true", KSU_SUSFS="true"),
+		config(name="Compat+NoDS+KSUN+SUSFS", KSU="KSUN", KSU_COMPAT="true", KSU_SUSFS="true", No_DS="true"),
 		config(name="Compat+NoDS+BSU+SUSFS", KSU="BSU", KSU_COMPAT="true", KSU_SUSFS="true", No_DS="true")
 	]
 }

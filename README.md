@@ -12,6 +12,7 @@
 [![SuSFS](https://img.shields.io/badge/SuSFS-4CAF50?&logo=gitlab&logoColor=white)](https://gitlab.com/simonpunk/susfs4ksu)
 [![KernelSU](https://img.shields.io/badge/KernelSU-000000?&logo=github&logoColor=white)](https://github.com/tiann/KernelSU)
 [![BakaSU](https://img.shields.io/badge/BakaSU-E91E63?&logo=github&logoColor=white)](https://github.com/Baka-SU/BakaSU)
+[![KernelSU Next](https://img.shields.io/badge/KernelSU--Next-1976D2?&logo=github&logoColor=white)](https://github.com/KernelSU-Next/KernelSU-Next)
 [![Managers](https://img.shields.io/badge/Managers-multiple-success)](https://github.com/ahmed-alnassif/GKID-Kernels/releases)
 
 **⚡ Blazing fast GKI kernel for Android** with KernelSU, SuSFS, NetHunter, NTSync, performance optimizations, battery improvements, and advanced security features.
@@ -75,8 +76,12 @@ Your donations keep this project alive! I spend countless hours maintaining kern
 | KernelSU+SuSFS | ✅ | ✅ | Full | ❌ |
 | KSU+SuSFS+MM | ✅ | ✅ | Full | ❌ |
 | BakaSU+SuSFS | ✅ | ✅ | Full | ❌ |
+| KSUN | ✅ | ❌ | Full | ❌ |
+| KSUN+SuSFS | ✅ | ✅ | Full | ❌ |
 | Compat+KSU+SuSFS | ✅ | ✅ | ❌ | ✅ |
 | Compat+BakaSU+SuSFS | ✅ | ✅ | ❌ | ✅ |
+| Compat+KSUN | ✅ | ❌ | ❌ | ✅ |
+| Compat+KSUN+SuSFS | ✅ | ✅ | ❌ | ✅ |
 
 **Optional features** (enable on any variant):
 - 🐳 DroidSpaces - Linux userspace support
@@ -175,6 +180,7 @@ Your donations keep this project alive! I spend countless hours maintaining kern
 |---------|-------------|
 | **KernelSU** | Stable kernel-based root with excellent hiding |
 | **BakaSU** | BakaSU kernel integration |
+| **KSUN** | KernelSU-Next, community fork with bleeding-edge features |
 | **Multiple Managers** | Run multiple KernelSU managers simultaneously |
 | **Vanilla** | No root for banking and corporate apps |
 
